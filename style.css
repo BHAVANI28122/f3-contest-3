@@ -60,22 +60,14 @@ h1{
 }
 .user-info{
     display: none;
-  margin-left: 30px;
+    margin-left: 30px;
 
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5rem;
-}
-.info h1{
+.user-info p{
     font-size: 40px;
 }
-.info p{
-    font-size: 40px;
-} 
-.info .btn{
+
+.logout{
    width: 120px;
    padding: 8px 14px;
    margin: 20px 0px;
