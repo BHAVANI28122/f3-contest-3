@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@600&family=Poppins:wght@300;400&family=Quattrocento+Sans:wght@700&family=Roboto+Slab&family=Roboto:ital@0;1&family=Ruda&display=swap');
+body{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.header p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 2rem ;
+}
+.login-form{
+    display: flex;
+    justify-content:center;
+    /* border: 1px solid #fff; */
+    width: 800px;
+    height: 90vh;
+    margin: auto;
+    /* flex-direction: column; */
+    flex-flow: column wrap;
+}
+input{
+   
+    width: 700px;
+    font-size: 24px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    outline: none;
+    background-color: black;
+    border: none;
+    border-bottom:1px solid #fff;
+    color: #fff;
+}
+.btn{
+    width: 200px;
+    padding: 10px 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+::placeholder
+{
+    color: #fff;
+}
+.user-info{
+    display: none;
+  margin-left: 30px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.info h1{
+    font-size: 40px;
+}
+.info p{
+    font-size: 40px;
+} 
+.info .btn{
+   width: 120px;
+   padding: 8px 14px;
+   margin: 20px 0px;
+}
+#redColor{
+    color: red;
+}
+#greenColor{
+    color: green;
+}
