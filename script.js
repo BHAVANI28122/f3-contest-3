@@ -54,7 +54,7 @@ function validation()
         localStorage.setItem("userName",Uname);
         localStorage.setItem("userEmail",Uemail);
         localStorage.setItem("userPassword",Upassword);
-        setTimeout(getdetails,3000);
+        setTimeout(getdetails,2000);
         setTimeout(reset,8000);
     }
 
@@ -112,8 +112,9 @@ function deleteInfo(){
 function storedata(){
 
 
+    if(localStorage.getItem("userName") && localStorage.getItem("userEmail") && localStorage.getItem("userPassword")){
     getdetails();
-
+    }
     
     }
     
